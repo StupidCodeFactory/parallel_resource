@@ -1,6 +1,6 @@
 = parallel_resources
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/yannmarquet/parallel_resource
 
 == DESCRIPTION:
 
