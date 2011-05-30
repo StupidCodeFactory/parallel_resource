@@ -5,5 +5,5 @@ class Project < ParallelResources::Resource::Base
 end
 
 Project.get(1)
-Project.get_Stuff
+Project.get_404Stuff
 ParallelResources::Http::Executor.run
