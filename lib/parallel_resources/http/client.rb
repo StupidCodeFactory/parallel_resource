@@ -3,7 +3,8 @@ module ParallelResources
 
     class Client
       include Singleton
-  
+      # TODO: make it thread safe. Use synchronize, monitor or mutex!
+      # specially for jruby or rubinius
       @@get_queue, @@post_queue, @@put_queue, @@delete_queue = [], [], [], []
 
       def get_queue
